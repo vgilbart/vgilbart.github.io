@@ -1,6 +1,7 @@
 ---
-layout: home
+layout: default
 title: My homepage
 ---
 
-Hello World
+# My homepage
+Go see all of [my projects here](./projects).
