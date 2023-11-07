@@ -1,7 +1,7 @@
 # General information about the website
 theme: jekyll-theme-dinky
-title: vgilbart
-description: Welcome 
+title: Valentine Gilbart
+description: Bioinformatician in NGS
 
 # Add dinky theme
 remote_theme: pages-themes/dinky@v0.2.0

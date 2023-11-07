@@ -1,10 +1,12 @@
 ---
-layout: default
+layout: page
 permalink: /projects
-title: My projects
+title: Valentine Gilbart's projects
 ---
 
 
 # My projects 
 
-This is a new page with all my projects! 
+Here's a list of all of my projects: 
+
+* Exemple A

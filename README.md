@@ -1,8 +1,8 @@
 # Description
 
-[This website](https://vgilbart.github.io/) contains informations about my current projets. 
+[This website](https://vgilbart.github.io/) contains information about my current projects. 
 
-# More informations
+# More information
 
 To run it locally for testing purpose, run:
 
