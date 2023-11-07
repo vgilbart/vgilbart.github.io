@@ -1,5 +1,8 @@
+----------------
 layout: page
-title: "List of my projects"
+title: "vgilbart's projects"
 permalink: /projects
+title: My projects
+----------------
 
-This is a new page
+This is a new page with all my projects
