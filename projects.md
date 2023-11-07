@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "vgilbart's projects"
 permalink: /projects
 title: My projects
 ---
