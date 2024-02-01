@@ -1,12 +1,9 @@
 ---
-layout: default
+layout: page
 title: Valentine Gilbart's homepage
 ---
 
-# Homepage
+# Valentine Gilbart
 
-I am currently a bioinformatician at IGBMC. 
+I am currently a bioinformatician at [IGBMC](https://www.igbmc.fr/). 
 
-Go see all of [my projects here](./projects).
-
-Go see all of [my publications here](./publications).
