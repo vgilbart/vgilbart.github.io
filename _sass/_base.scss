@@ -34,7 +34,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: 9999;
+    z-index: 9998;
     background-color: var(--color1);
     color: var(--color2);
     padding: 10px ;
@@ -42,3 +42,7 @@ footer {
     text-align: center;
 }
 
+footer a:hover {
+    background-color: var(--color2);
+    color: var(--color1);
+}
