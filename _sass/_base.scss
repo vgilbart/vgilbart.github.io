@@ -27,7 +27,8 @@ h1 {
 body {
     padding-top: 50px; /* Adjust this value to match the height of your header */
     padding-bottom: 50px; /* Adjust this value to match the height of your footer */
-  }
+    padding-left: 10px;
+}
 
 footer {
     position: fixed;
@@ -45,4 +46,23 @@ footer {
 footer a:hover {
     background-color: var(--color2);
     color: var(--color1);
+}
+
+img[alt$=img-homepage] {
+    float: left; 
+    border-radius: 50%; 
+    width: 100px; 
+    margin-right: 15px
+}
+
+.rotate {
+    font-size: 24px;
+    display: inline-block;
+    transform-origin: center;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
