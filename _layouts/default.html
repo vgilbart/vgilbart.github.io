@@ -2,6 +2,31 @@
 <html lang="{{ site.lang }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}">
 
+  <!-- 
+  Start styling for code blocks 
+  Available styles: https://github.com/highlightjs/cdn-release/tree/main/build/styles
+  Test styles: https://highlightjs.org/demo
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/stackoverflow-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/bash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/r.min.js"></script>
+
+  <script>hljs.highlightAll();</script>
+  <!-- End styling for code blocks -->
+
+  <!-- Start styling copy button for code blocks -->
+  <script src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css"/>
+  <script>hljs.addPlugin(
+    new CopyButtonPlugin({
+      callback: (text, el) => console.log("Copied to clipboard", text),
+    })
+  );</script>
+  <!-- End styling copy button for code blocks -->
+
   <!-- Head -->
   <head>
     {% include header.html %}

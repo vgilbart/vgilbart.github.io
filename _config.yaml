@@ -18,3 +18,13 @@ exclude:
 # Markdown and syntax highlight
 markdown: kramdown
 
+kramdown:
+  input: GFM
+  highlighter: rouge
+
+# This can help you to set default permalink for a folder
+defaults:
+  - scope:
+      path: "_posts" #_posts folder
+    values:
+      permalink: "posts/:categories/:year/:month/:title:output_ext"
